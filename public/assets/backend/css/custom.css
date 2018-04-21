@@ -1,0 +1,122 @@
+body.skin-1 {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.skin-1 .nav-header {
+    padding: 9px 25px 10px 25px;
+}
+.skin-1 .ibox {
+    border: 1px solid #e7eaec;
+}
+
+.skin-1 .ibox-title, .skin-1 .ibox-content {
+	border: 0;
+}
+.skin-1 .ibox-title .input-search {
+  margin-bottom: 5px;
+}
+.btn-file > input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-size: 23px;
+  height: 100%;
+  width: 100%;
+  direction: ltr;
+  cursor: pointer;
+}
+.fileinput {
+  margin-bottom: 9px;
+  display: inline-block;
+}
+.fileinput .form-control {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  cursor: text;
+}
+.fileinput .thumbnail {
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  text-align: center;
+}
+.fileinput .thumbnail > img {
+  max-height: 100%;
+}
+.fileinput .btn {
+  vertical-align: middle;
+}
+.fileinput-exists .fileinput-new,
+.fileinput-new .fileinput-exists {
+  display: none;
+}
+.fileinput-inline .fileinput-controls {
+  display: inline;
+}
+.fileinput-filename {
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+}
+.form-control .fileinput-filename {
+  vertical-align: bottom;
+}
+.fileinput.input-group {
+  display: table;
+}
+.fileinput.input-group > * {
+  position: relative;
+  z-index: 2;
+}
+.fileinput.input-group > .btn-file {
+  z-index: 1;
+}
+
+.note-editor {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 2px;
+}
+.note-editor .navbar .btn-navbar {
+  background-color: #eeeeee !important;
+}
+.note-editor .well {
+  min-height: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0 !important;
+}
+.note-editor .note-toolbar {
+  border-radius: 2px 2px 0 0;
+  background-color: #f5f5f5 !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+.note-editor .note-statusbar .note-resizebar {
+  border-top: 1px solid #e0e0e0 !important;
+  border-radius: 0 0 2px 2px;
+}
+.note-editor .note-statusbar {
+  background-color: #f5f5f5 !important;
+  border-radius: 0 0 2px 2px;
+}
+
+
+table.dataTable tbody th, table.dataTable tbody td, table.middle-align tbody th, table.middle-align tbody td {
+  vertical-align: middle;
+}
+
+.select2-selection--single {
+    border-radius: 0 !important;
+}
+.radius-none{
+  border-radius: 0;
+}
+.no-margin {
+  margin:0;
+}
