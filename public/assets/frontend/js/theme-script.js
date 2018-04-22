@@ -27,7 +27,7 @@
             $('#product-zoom').elevateZoom({
                 zoomType: "inner",
                 cursor: "crosshair",
-                zoomWindowFadeIn: 500,
+                zoomWindowFadeIn: 450,
                 zoomWindowFadeOut: 750,
                 gallery:'gallery_01'
             }); 

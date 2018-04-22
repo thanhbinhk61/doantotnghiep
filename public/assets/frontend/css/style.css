@@ -1621,14 +1621,17 @@ span.notify-right{
 [5. Home slide]
 */
 .header-top-right{
-    margin-left: -15px;
+    margin-left: -30px !important;
     padding: 0;
     border-top: 3px solid #F25822;
 }
+
 .header-top-right .homeslider{
   width: 74%;
   float: left;
+  margin-left: 15px;
 }
+
 .header-top-right .header-banner{
     width: 26%;
     float: right;

@@ -3,7 +3,27 @@
 @section('page-slide')
   @include('frontend._partials.slide')
 @stop
+
 @section('page-content')
+
+<div class="slider-new" style="margin-top: 15px;">
+    <div id="home-slider">
+        <div class="container">
+            <div class="col-sm-12 header-top-right">
+                <div class="header-top-right-wapper">
+                    <div class="homeslider">
+                        <ul id="contenhomeslider">
+                            @foreach($slides as $slide)
+                            <li><a href="{{$slide->link}}"><img alt="{{$slide->name}}" src="{{route('image.resize',[$slide->image,900,450])}}" title="{{$slide->name}}" /></a></li>
+                            @endforeach
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
 
 @foreach($categoryRoot as $category)
 <?php $category->load('productNew','productSpecial') ?>
