@@ -141,6 +141,25 @@
                                         @else
                                             <span class="text-danger">Hết hàng</span>
                                         @endif
+                                        <br/>
+                                        <div class="attribute-label">Kích thước:</div>
+                                        <div class="attribute-list product-qty">
+                                            <div class="qty">
+                                                <select>
+                                                    <optgroup label="Nam">
+                                                        <option>41</option>
+                                                        <option>42</option>
+                                                        <option>43</option>
+                                                    </optgroup>
+
+                                                    <optgroup label="Nữ">
+                                                        <option>35</option>
+                                                        <option>36</option>
+                                                        <option>37</option>
+                                                    </optgroup>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 @if ($item->quantity > 0)

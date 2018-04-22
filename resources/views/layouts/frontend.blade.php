@@ -20,6 +20,7 @@
     <body class="home option2">
         @include('frontend._partials.header')
         @section('page-slide')
+        
         @show
         @section('page-content')
         @show
